@@ -12,17 +12,21 @@ WSHのJSでFF FlattenFolders_JScript_WSH
 使用するときにはこの二ファイルをコピーしてください。
 Windowsならwsfファイルをダブルクリックか何かすれば動くんじゃないでしょうか。
 このFlattenは、一段階しか浅くしません。たとえばフォルダ構成が
-*hoge
+
+* hoge
     * piyo
         * foo
             * bar1
-            * bar2
-だった場合、
+            * bar2  
+
+だった場合、  
+
 * piyo
     * foo
         * bar1
-        * bar2
-になります。
+        * bar2 
+
+になります。  
 消えたフォルダは戻ってこないので、気を付けてください。
 
 ### 動作環境
